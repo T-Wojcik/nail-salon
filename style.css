@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 10000px;
+}
+
+/*MAIN NAV ON THE TOP OF THE WEBSITE*/
+/*MAIN NAV ON THE TOP OF THE WEBSITE*/
+/*MAIN NAV ON THE TOP OF THE WEBSITE*/
+/*MAIN NAV ON THE TOP OF THE WEBSITE*/
+/*MAIN NAV ON THE TOP OF THE WEBSITE*/
+
+.logo {
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+    top: 7px;
+    left: 20px;
+    font-size: 2.5rem;
+    color: #dd70aa;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #dd70aa;
+}
+
+.main_nav {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+}
+
+.item_list {
+    text-align: right;
+    margin: 30px 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #444;
+    padding: 10px;
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.last_item {
+    margin-left: 70px;
+}
+
+.last_item a {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    border: 2px solid #222;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+li a:hover {
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+.last_item a:hover {
+    background-color: #dd70aa;
+    border: 2px solid #dd70aa;
+    color: white;
+}
+
+/* BANNER WITH IMG */
+/* BANNER WITH IMG */
+/* BANNER WITH IMG */
+/* BANNER WITH IMG */
+/* BANNER WITH IMG */
+
+header {
+    position: relative;
+    margin-top: 35px;
+    height: 45vh;
+    background-image: url("img/nails.jpg");
+    background-position-y: 10%;
+    background-size: cover;
+    
+}
+
+header .banner {
+    width: 100%;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+header h1 {
+    position: absolute;
+    top: 50px;
+    left: 34%;
+    right: 34%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+header h1 span {
+    color: #dd70aa;
+}
+
+/*MAIN ARTICLE ABOUT ME*/
+/*MAIN ARTICLE ABOUT ME*/
+/*MAIN ARTICLE ABOUT ME*/
+
+main.main_content {
+    max-width: 1440px;
+    margin: 50px auto 0 auto;
+    color: #333;
+}
+
+.about_me h1 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.about_me h1 .pink {
+    color: #dd70aa;
+}
+
+.about_me p {
+    font-size: 1.7em;
+    margin: 30px 30px;
+    text-align: center;
+    color: #333;
+}
+
+/*SECTION GALLERY , PHOTOS OF NAILS*/
+/*SECTION GALLERY , PHOTOS OF NAILS*/
+/*SECTION GALLERY , PHOTOS OF NAILS*/
+/*SECTION GALLERY , PHOTOS OF NAILS*/
+
+.gallery {
+    max-width: 1440px;
+    margin: 60px auto 0 auto;
+    font-size: 0;
+}
+
+
+.photos {
+    display: inline-block;
+    width: 33.33%;
+}
+
+.photos .img {
+    height: 300px;
+    background-color: salmon;
+    margin: 0 20px 20px 25px;
+    border: 2px solid salmon;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.gallery .photos h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    color: #333;
+}
+
+.img_1 {
+    background-image: url("/img/przedluzane.jpg");
+    background-position: 100% 57%;
+}
+
+.img_2 {
+    background-image: url("/img/nails_3.jpg");
+}
+
+.img_3 {
+    background-image: url("/img/nails_4.jpg");
+    background-position-y: 23%;
+}
+
+.img:hover {
+    transform: scale(1.4);
+}
+
+/*DREAM IMAGE*/
+/*DREAM IMAGE*/
+/*DREAM IMAGE*/
+/*DREAM IMAGE*/
+
+div.dream {
+    position: relative;
+    max-width: 100%;
+    height: 550px;
+    margin: 50px auto 0 auto;
+    background-color: #2e2d37;
+}
+
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+div.dream h1 {
+    position: absolute;
+    top: 92px;
+    left: 240px;
+    color: salmon;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+div.dream .dream_img {
+    position: absolute;
+    right: 240px;
+    top: 62px;
+    background-image: url("/img/hands.jpg");
+    width: 500px;
+    height: 426px;
+    background-size: cover;
+    background-position: 20% 0;
+}
+
+div.dream .wrap .description {
+    position: absolute;
+    width: 700px;
+    top: 134px;
+    left: 240px;
+}
+
+div.dream .wrap .description p {
+    font-size: 1.8em;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.instagram {
+    text-decoration: none;
+    color: #dd70aa;
+}
+
+div.dream .wrap .description .break {
+    margin-top: 30px;
+}
