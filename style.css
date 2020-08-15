@@ -92,7 +92,7 @@ header {
     position: relative;
     margin-top: 35px;
     height: 45vh;
-    background-image: url("img/nails.jpg");
+    background-image: url("https://i.postimg.cc/DZGwk97w/nails.jpg");
     background-position-y: 10%;
     background-size: cover;
     
@@ -185,16 +185,16 @@ main.main_content {
 }
 
 .img_1 {
-    background-image: url("/img/przedluzane.jpg");
+    background-image: url("https://i.postimg.cc/jjmS1x01/przedluzane.png");
     background-position: 100% 57%;
 }
 
 .img_2 {
-    background-image: url("/img/nails_3.jpg");
+    background-image: url("https://i.postimg.cc/CxM5Brsc/nails-3.jpg");
 }
 
 .img_3 {
-    background-image: url("/img/nails_4.jpg");
+    background-image: url("https://i.postimg.cc/5t6tpHGv/nails-4.jpg");
     background-position-y: 23%;
 }
 
@@ -233,7 +233,7 @@ div.dream .dream_img {
     position: absolute;
     right: 240px;
     top: 62px;
-    background-image: url("/img/hands.jpg");
+    background-image: url("https://i.postimg.cc/4x8dzv8s/hands.jpg");
     width: 500px;
     height: 426px;
     background-size: cover;
